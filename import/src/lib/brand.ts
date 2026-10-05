@@ -1,6 +1,0 @@
-export const APP_NAME = "DymeR"
-export const VERSION = "1.1.0"
-export const STUDIO = "DYPOL LABS"
-export const EMAIL = "dypollabs@protonmail.com"
-export const SITE = "https://dypol.vercel.app"
-export const SITE_LABEL = "dypol.vercel.app"
