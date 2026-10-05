@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DymeR</string>
+    <string name="channel_desc">Stays on screen while the floating timer is open</string>
+    <string name="channel_name">DymeR timer</string>
+    <string name="overlay_close">Close floating timer</string>
+    <string name="overlay_pause">Pause</string>
+    <string name="overlay_resize">Resize floating timer</string>
+    <string name="overlay_resume">Resume</string>
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:statusBarColor">#120D0F</item>
+        <item name="android:navigationBarColor">#120D0F</item>
+        <item name="android:windowBackground">#F7F2EF</item>
+    </style>
+</resources>

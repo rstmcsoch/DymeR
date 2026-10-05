@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.dymer.dypol.app-release-22:/layout_overlay_timer.xml.flat",
+        "source": "com.dymer.dypol.app-main-23:/layout/overlay_timer.xml"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/drawable_overlay_btn.xml.flat",
+        "source": "com.dymer.dypol.app-main-23:/drawable/overlay_btn.xml"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.dymer.dypol.app-main-23:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/drawable_overlay_bg.xml.flat",
+        "source": "com.dymer.dypol.app-main-23:/drawable/overlay_bg.xml"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.dymer.dypol.app-main-23:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.dymer.dypol.app-main-23:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/drawable_ic_stat_focus.xml.flat",
+        "source": "com.dymer.dypol.app-main-23:/drawable/ic_stat_focus.xml"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.dymer.dypol.app-main-23:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/drawable_ic_resize.xml.flat",
+        "source": "com.dymer.dypol.app-main-23:/drawable/ic_resize.xml"
+    },
+    {
+        "merged": "com.dymer.dypol.app-release-22:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.dymer.dypol.app-main-23:/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

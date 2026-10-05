@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    @font-face {
+      font-family: "Instrument Serif";
+      src: url("fonts/InstrumentSerif-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Outfit";
+      src: url("fonts/Outfit-Variable.ttf") format("truetype");
+      font-weight: 100 900;
+      font-style: normal;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #F6F1EE;
+    }
+    .card {
+      position: relative;
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+    }
+    .bg {
+      position: absolute;
+      inset: 0;
+      width: 1200px;
+      height: 630px;
+      object-fit: cover;
+      object-position: center 38%;
+    }
+    .lockup {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 52px;
+      padding: 0 96px 8px;
+    }
+    .mark {
+      width: 252px;
+      height: 252px;
+      flex: none;
+      filter: drop-shadow(0 16px 28px rgba(44, 22, 25, 0.16));
+    }
+    .copy {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-width: 0;
+    }
+    .rule {
+      width: 72px;
+      height: 4px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #E11D48, #FB7185);
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-family: "Instrument Serif", serif;
+      font-weight: 400;
+      font-size: 168px;
+      line-height: 0.82;
+      color: #2C1619;
+      letter-spacing: -0.035em;
+    }
+    p {
+      margin-top: 18px;
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 1;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #E11D48;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="bg" alt="" src="bg.jpg" />
+    <div class="lockup">
+      <img class="mark" alt="" src="mark.png" />
+      <div class="copy">
+        <div class="rule"></div>
+        <h1>Focus</h1>
+        <p>One session at a time</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
